@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+}
+
+.card {
+  display: grid;
+  position: relative;
+  width: 100%;
+  grid-template-columns: 266px 266px 266px 266px;
+  height: 601px;
+  color: #fff;
+  gap: 6px;
+  padding-left: 419px;
+}
+
+h1 {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #161D25;
+  padding-top: 137px;
+  padding-bottom: 13px;
+  /* text-align: center; */
+  padding-left: 625px;
+}
+
+h2 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #5D7085;
+  padding-bottom: 68px;
+  /* text-align: center; */
+  padding-left: 814px;
+}
+
+
+.Personal {
+  background: linear-gradient(180deg, #FDC624 0%, #E6C434 99.36%);
+  
+}
+
+.Business {
+  background: linear-gradient(180deg, #55DCE7 0%, #3DCAD4 100%);
+}
+
+.Developer {
+  background: linear-gradient(180deg, #6BDFFF 0%, #3DACFC 100%);
+}
+
+.Agency {
+  background: linear-gradient(180deg, #BFCEDC 0%, #939FB3 100%);
+}
+
+.img {
+  display: block;
+  margin: auto;
+  position: relative;
+
+}
+
+.Personal-img {
+  padding-top: 72px;
+  padding-left: 33px;
+  padding-right: 36.42px;
+}
+
+.Business-img {
+  padding-top: 64px;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+
+.Developer-img {
+  padding-top: 17px;
+  padding-left: 40px;
+  padding-right: 46px;/
+}
+
+.Agency-img {
+  padding-top: 66px;
+  padding-left: 44px;
+  padding-right: 52px;
+}
+
+.title {
+  margin-left: 35px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.content {
+  margin-left: 35px;
+  font-weight: 400;
+  font-size: 12px;
+  padding-bottom: 27px;
+  letter-spacing: -0.2px;
+}
+
+.price {
+  display: flex;
+}
+
+.valuta {
+  margin-left: 35px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cena {
+  font-weight: 700;
+  font-size: 67px;
+  padding-left: 3px;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 35.21px;
+}
+
+li::before { 
+  content: '✓'; 
+  width: 10px;
+  height: 8px;
+  padding-right: 4.7px;
+}  
+
+.header {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  background: linear-gradient(180deg, #63D6FE 0%, #5DD4F8 100%);
+  width: 100%;
+}
+
+.header::before {
+  content: '★';
+  width: 12px;
+  height: 12px;
+}
+
+ul {
+  line-height: 33px;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  background-color: transparent;
+  justify-content: end;
+  color: #FFFFFF;
+  width: 196px;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  margin-bottom: 36px;
+  margin-left: 35px;
+}
+
+.bt:hover {
+  background-color: #fff;
+  color: #44A9FD;
+}
